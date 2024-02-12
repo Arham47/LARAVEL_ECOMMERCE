@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "learning ecommerce in laravel",
+  "main": "index.js",
+  "scripts": {
+    "install:app": "concurrently \"cd backend && composer install &&php artisan serve\"",
+    "start":"concurrently \"cd backend && php artisan serve\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arham47/LARAVEL_ECOMMERCE.git"
+  },
+  "author": "Arham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arham47/LARAVEL_ECOMMERCE/issues"
+  },
+  "homepage": "https://github.com/Arham47/LARAVEL_ECOMMERCE#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
