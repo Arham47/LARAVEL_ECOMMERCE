@@ -1,0 +1,8 @@
+laravel 
+php artisan serve 
+npm concurently 
+php artisan key:generate
+php artisan make:model Category -mfs    F for factory to add fake data s for seeders
+php artisan db:seed
+php artisan make:Controller API/CategoryController --api
+php artisan storage:link
