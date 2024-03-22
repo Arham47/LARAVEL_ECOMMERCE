@@ -43,3 +43,4 @@ class PaymentController extends Controller
         return response()->json(['url' => $session->url], 200);
     }
 }
+
